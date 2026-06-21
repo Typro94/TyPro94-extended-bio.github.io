@@ -1,0 +1,6 @@
+body {
+    background-color: #12131a; /* Sleek, dark community profile background */
+    color: #ffffff;           /* Clean white text color */
+    font-family: sans-serif;   /* Removes the ugly default jagged font */
+    padding: 40px;             /* Puts a comfortable breathing gap around the edges */
+}
