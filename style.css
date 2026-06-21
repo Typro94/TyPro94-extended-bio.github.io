@@ -1,6 +1,22 @@
 body {
-    background-color: #12131a; /* Sleek, dark community profile background */
-    color: #ffffff;           /* Clean white text color */
-    font-family: sans-serif;   /* Removes the ugly default jagged font */
-    padding: 40px;             /* Puts a comfortable breathing gap around the edges */
+    /* Creates a smooth top-to-bottom gradient from deep space blue to solid black */
+    background: linear-gradient(to bottom, #001747, #000000); 
+    
+    /* Sets the default text color to a clean, readable light grey */
+    color: #b3b3b3;           
+    
+    /* Smooths out the fonts and sets a clean spacing layout */
+    font-family: sans-serif;   
+    padding: 40px;             
+    margin: 0;
+    
+    /* Makes sure the gradient stretches the entire height of the monitor screen */
+    min-height: 100vh;         
 }
+
+/* This targets just your name headline to make it stand out against the grey */
+h1 {
+    color: #ffffff; /* Keeping your main title crisp white looks amazing over blue/black */
+    margin-bottom: 12px;
+}
+/* what am i doing */
